@@ -1,6 +1,6 @@
 # Timer em JavaScript
 
-#Objetivo✍️
+##Objetivo✍️
 
 Desenvolvi um projeto de timer com o intuito de praticar o DOM em JS, funções como setInterval e setTimeout e também o objeto Date. 
 
