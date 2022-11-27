@@ -15,5 +15,5 @@ Desenvolvi um projeto de timer com o intuito de praticar o DOM em JS, funções 
 
 ## 📞 Contato
 
-E-mail:pedrohgs2004@gmail.com <br>
-Linkedin: https://www.linkedin.com/in/pedro-henrique-g-silva-a2100a23a/?originalSubdomain=br
+📩E-mail: pedrohgs2004@gmail.com <br>
+🌐Linkedin: https://www.linkedin.com/in/pedro-henrique-g-silva-a2100a23a/?originalSubdomain=br
