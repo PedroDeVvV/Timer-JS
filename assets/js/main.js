@@ -28,12 +28,14 @@ function relogio() {
         iniciaRelogio();
         relogio.classList.remove('timerPausado');
         titulo.innerHTML = "Timer em Execução...";
+        iniciar.innerHTML = "Iniciar";
     });
 
     pausar.addEventListener('click', function (e) {
         setTimeout(clearInterval(timer));
         relogio.classList.add('timerPausado');
         titulo.innerHTML = "Timer Pausado";
+        iniciar.innerHTML = "Retomar";
     });
 
     zerar.addEventListener('click', function (e) {
@@ -41,6 +43,7 @@ function relogio() {
         relogio.innerHTML = "00:00:00";
         titulo.innerHTML = "Timer";
         relogio.classList.remove('timerPausado')
+        iniciar.innerHTML = "Iniciar";
     });
 
 }
