@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg.jpg);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.relogio {
+  font-size: 2em;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.timerPausado {
+  color: red;
+}
+
+.timerRunning {
+  color: black;
+}
