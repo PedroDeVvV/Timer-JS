@@ -43,7 +43,3 @@ button:hover {
 .timerPausado {
   color: red;
 }
-
-.timerRunning {
-  color: black;
-}
