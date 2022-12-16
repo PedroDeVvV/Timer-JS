@@ -38,6 +38,8 @@ function relogio() {
     });
 
     pausar.addEventListener('click', function (e) {
+        clearInterval(colocaRed);
+        clearInterval(removeRed);
         setTimeout(clearInterval(timer));
         titulo.innerHTML = "Timer Pausado";
         iniciar.innerHTML = "Retomar";
