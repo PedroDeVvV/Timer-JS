@@ -1,4 +1,4 @@
-function relogio() {
+(function () {
 
     function pegarHoraSegundos(segundos) {
         const data = new Date(segundos * 1000);
@@ -62,6 +62,4 @@ function relogio() {
         clearInterval(removeRed);
     });
 
-}
-
-relogio();
+})();
